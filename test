@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h2>FLL Test</h2>
+
+<button onclick="startGame()">Start</button>
+
+<script>
+function startGame() {
+    let name = prompt("your name");
+    alert("hello " + name);
+
+    let go = prompt("start?");
+    if (go !== "yes") {
+        alert("joqal");
+        return;
+    }
+
+    let fll = prompt("макс балов в флл");
+    if (fll != "545") {
+        alert("joqal");
+        return;
+    }
+
+    let maxa = prompt("сколько людей макс на карте");
+    if (maxa != "4") {
+        alert("joqal");
+        return;
+    }
+
+    let arx = prompt("какая тема на англ но на русском");
+    if (arx != "arxiologia") {
+        alert("joqal");
+        return;
+    }
+
+    let day = prompt("когда будут соревнования");
+    if (day != "30") {
+        alert("joqal");
+        return;
+    }
+
+    alert("end");
+}
+</script>
+
+</body>
+</html>
